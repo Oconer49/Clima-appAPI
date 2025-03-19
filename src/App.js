@@ -20,7 +20,7 @@ function App() {
   };
 
   const callAPI = (city, country) => {
-    const apiId = '46d0806806be021a8855aa5b6c4388cf';
+    const apiId = '41d1d7f5c2475b3a16167b30bc4f265c';
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${city},${country}&appid=${apiId}`;
 
     fetch(url)
